@@ -1,0 +1,48 @@
+.My-Feedback {
+    background-color: #f9f9f9;
+    padding: 40px;
+}
+
+.My-Feedback h2 {
+    font-size: 26px;
+    margin-top: -16px;
+    font-weight: 900;
+    margin-bottom: 33px;
+}
+
+.Feedback-Form {
+    min-height: 88px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.Feedback-button .ms-Button--primary{
+    background-color: #002855;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.Feedback-Form .ms-TextField-fieldGroup {
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+
+.footer-text {
+    font-size: 14px;
+    margin-right: 700px;
+    padding: 5px 20px;
+    letter-spacing: 1px;
+}
+
+.contact-text {
+    font-size: 16px;
+    letter-spacing: 1px;
+}

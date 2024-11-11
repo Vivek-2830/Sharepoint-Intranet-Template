@@ -1,0 +1,49 @@
+.customDemo {
+    margin-top: -60px;
+}
+
+.got-question h2{
+    margin-left: 78px;
+    font-size: 29px;
+    font-weight: 900;
+    margin-bottom: 29px;
+}
+
+.question h3{
+    display: flex;
+    background-color: #002855;
+    color: #fff;
+    width: 63%;
+    padding: 15px 20px;
+    font-weight: normal;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color .3s ease;
+    border-radius: 31px;
+    margin-top: 34px;
+    margin-left: 78px;
+    align-items: center;
+}
+
+.Questions {
+    margin: -16px;
+}
+
+.Questions p {
+    text-align: center; 
+    width: 62%;
+    background-color: #f9f9f9;
+    padding: 15px 15px 22px 19px;
+    display: flex;
+    font-size: 15px;
+    color: #333;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 95px;
+}
+
+.arrow-down{
+    cursor: pointer;
+    margin-right: 12px;
+    margin-left: -8px;
+}

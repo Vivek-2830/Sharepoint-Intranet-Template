@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "demoproject-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/demoproject/DemoprojectWebPart.js",
+          "manifest": "./src/webparts/demoproject/DemoprojectWebPart.manifest.json"
+        }
+      ]
+    },
+    "resources-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/resources/ResourcesWebPart.js",
+          "manifest": "./src/webparts/resources/ResourcesWebPart.manifest.json"
+        }
+      ]
+    },
+    "custom-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customDemo/CustomDemoWebPart.js",
+          "manifest": "./src/webparts/customDemo/CustomDemoWebPart.manifest.json"
+        }
+      ]
+    },
+    "feed-back-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/feedBack/FeedBackWebPart.js",
+          "manifest": "./src/webparts/feedBack/FeedBackWebPart.manifest.json"
+        }
+      ]
+    },
+    "social-media-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/socialMedia/SocialMediaWebPart.js",
+          "manifest": "./src/webparts/socialMedia/SocialMediaWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DemoprojectWebPartStrings": "lib/webparts/demoproject/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "ResourcesWebPartStrings": "lib/webparts/resources/loc/{locale}.js",
+    "CustomDemoWebPartStrings": "lib/webparts/customDemo/loc/{locale}.js",
+    "FeedBackWebPartStrings": "lib/webparts/feedBack/loc/{locale}.js",
+    "SocialMediaWebPartStrings": "lib/webparts/socialMedia/loc/{locale}.js"
+  }
+}

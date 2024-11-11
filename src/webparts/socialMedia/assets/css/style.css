@@ -1,0 +1,145 @@
+.social-text h2{
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: -8px;
+}
+
+.holiday-schedule {
+    max-width: 308px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    margin: 7px;
+    margin-left: -9px;
+    border-right: 7px solid #002855;
+}
+
+.Holiday-Name {
+    padding: 4px 22px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: #002855;
+}
+
+.card {
+    width: 60px;
+    text-align: center;
+    margin: 3px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    position: absolute;
+}
+
+.card p {
+    margin-top: -1px;
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.card span {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.card-details {
+    flex: 1;
+}
+
+.card-details h4 {
+    font-size: 1.1em;
+    margin-bottom: -9px;
+    margin-left: 80px;
+}
+
+.card-details p {
+    font-size: .9em;
+    margin-left: 80px;
+    color: #666;
+}
+
+.Payed-Name {
+    padding: 2px 30px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #ffa07a;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.Pay-schedule {
+    max-width: 308px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    margin: 7px;
+    margin-left: -9px;
+    border-right: 7px solid #ffa07a;
+}
+
+/* .calendar-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.calendar-header button {
+    background-color: #66b3b3;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.calendar-header h3 {
+    margin: 0;
+}
+
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar th {
+    background-color: #66b3b3;
+    color: white;
+    padding: 10px;
+}
+
+.calendar td {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.calendar td:hover {
+    background-color: #66b3b3;
+    color: white;
+}
+
+.calendar td.inactive {
+    color: #ccc;
+    pointer-events: none;
+} */

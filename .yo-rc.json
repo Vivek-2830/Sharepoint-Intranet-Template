@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.14.0",
+    "libraryName": "design-demo",
+    "libraryId": "d5a16bdf-692b-47d5-8f66-8e3aa3f60eb5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "design-demo",
+    "solutionShortDescription": "design-demo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

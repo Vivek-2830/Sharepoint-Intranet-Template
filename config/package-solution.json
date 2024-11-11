@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "design-demo-client-side-solution",
+    "id": "d5a16bdf-692b-47d5-8f66-8e3aa3f60eb5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "design-demo description"
+      },
+      "longDescription": {
+        "default": "design-demo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "design-demo Feature",
+        "description": "The feature that activates elements of the design-demo solution.",
+        "id": "fb5ff039-7afb-424e-8859-a12e920d8a2b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/design-demo.sppkg"
+  }
+}

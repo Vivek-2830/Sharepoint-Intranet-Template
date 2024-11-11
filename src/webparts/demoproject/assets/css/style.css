@@ -1,0 +1,187 @@
+[data-sp-feature-tag="PageTitle web part (Banner)"] {
+    display: none;
+}
+
+[data-automation-id="CanvasZone-SectionContainer"] {
+    max-width: 150% !important;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00274d;
+    color: white;
+}
+
+.Header-Text h3{
+    font-family: Arial, sans-serif;
+    /* font-family: cursive; */
+    font-weight: normal;
+    font-size: 42px;
+    margin-bottom: 10px;
+    margin-left: 69px;
+    margin-top: 70px;
+}
+
+.Header-Text p{
+    font-family: cursive;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 69px;
+}
+
+.Benifit-Image img{
+    object-fit: cover;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    border-top-left-radius: 196px;
+    border-bottom-left-radius: 196px;
+    /* width: 150px; */
+    /* border-radius: 8px; */
+}
+
+.Benifit-Image{
+    flex-basis: 50%;
+}
+
+.Benifits-Icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 17px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.All-Icons{
+    background-color: #036;
+    color: #fff;
+    padding: 27px;
+    border-radius: 8px;
+    transition: background-color .3s ease;
+    flex-basis: 8%;
+    text-align: center;
+}
+
+.All-Icons:hover {
+    box-shadow: 0 1rem 2rem -1rem black;
+}
+
+.All-Icons .Items-Icon{
+    font-size: 42px;
+}
+
+.All-Icons p{
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+}
+
+.Slider {
+    box-shadow: 0px 10px 1px rgba(0, 0, 0, 0.1);
+    /* margin-left: 7.5px; */
+    padding: 10px;
+    /* margin-right: 7.5px; */
+    top: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* .payroll-slide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+} */
+
+.Benifits-res {
+    height: 350px;
+    /* text-align: center; */
+}
+
+.Benifits-res img{
+    height: 227px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Benifits-res p{
+    background-color: #4dc5ad;
+    color: #fff;
+    padding: 25px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.slick-next {
+    right: -25px;
+    margin-top: 6px;
+}
+
+.slick-prev {
+    left: -25px;
+    margin-top: -16px;
+}
+
+.slick-slider {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* .Other-Resource {
+    margin-bottom: 30px;
+}
+
+.Other-Resource h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 74px;
+}
+
+.Items-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+} */
+
+
+
+/* .prevleft {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+     background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    left: 10px;
+}
+
+.nextright {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+     background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    right: 10px;
+} */
