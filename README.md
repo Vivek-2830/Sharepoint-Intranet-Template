@@ -1,4 +1,4 @@
-# design-demo
+# Design-demo
 
 ## Summary
 
