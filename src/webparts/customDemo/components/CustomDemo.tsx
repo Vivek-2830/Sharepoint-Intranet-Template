@@ -118,18 +118,6 @@ export default class CustomDemo extends React.Component<ICustomDemoProps, ICusto
     });
   }
 
-  public async GetReadGotQuestion(ID) {
-    let readAllData = this.state.AllGotQuestionData.filter((item) => {
-      if (item.ID == ID) {
-        return item;
-      }
-    });
-    this.setState({
-      Answer : readAllData[0].Answer
-    });
-  this.GetGotQuestions();
-  }
-
   public handleClick = (id) => {
     // Conditional logic to set different state values
     if (this.state.ArrowButton === false) {
