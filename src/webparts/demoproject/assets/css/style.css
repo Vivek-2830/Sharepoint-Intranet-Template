@@ -6,6 +6,14 @@
     max-width: 150% !important;
 }
 
+#sp-appBar {
+    display: none;
+}
+
+#spCommandBar {
+    display: none;
+}
+
 .line-clamp {
     display: -webkit-box;
     -webkit-line-clamp: 1;
@@ -19,6 +27,8 @@
     justify-content: space-between;
     background-color: #00274d;
     color: white;
+    margin-left: -33px;
+    width: 105%;
 }
 
 .Header-Text h3{
