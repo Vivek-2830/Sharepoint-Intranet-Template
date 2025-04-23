@@ -1,0 +1,70 @@
+/* .State-Image {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.State-Image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+} */
+
+
+.realState {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+  
+.LandingPage-Image {
+    width: 100%;
+    height: 380px;
+    background: linear-gradient(rgba(0, 27, 139, .3), rgba(0, 27, 139, .3)) 50% / cover, url(https://www.shortpoint.com/wp-content/uploads/2017/02/background1.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    /* box-sizing: border-box; */
+}
+  
+.Real-State-Image {
+    margin-top: 116px;
+}
+
+.Real-State-Image img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+  
+.State-Text .text {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+
+#sp-appBar {
+    display: none !important;
+}
+
+.ms-HorizontalNavItems {
+    padding: 0 2px;
+    display: none;
+}
+
+#CommentsWrapper{display: none;}
+[data-automationid="SimpleFooter"]{display: none;}
+[data-automationid="SimpleFooter-edit"]{display: none;}
+[data-automationid="SiteHeaderFollowButton"]{display: none;}
+[data-automationid="ShareSiteButton"]{display: none;}
+[data-automation-id="CanvasZone-SectionContainer"]{max-width: 100% !important;} 

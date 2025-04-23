@@ -41,6 +41,30 @@
           "manifest": "./src/webparts/socialMedia/SocialMediaWebPart.manifest.json"
         }
       ]
+    },
+    "real-state-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/realState/RealStateWebPart.js",
+          "manifest": "./src/webparts/realState/RealStateWebPart.manifest.json"
+        }
+      ]
+    },
+    "real-state-resource-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/realStateResource/RealStateResourceWebPart.js",
+          "manifest": "./src/webparts/realStateResource/RealStateResourceWebPart.manifest.json"
+        }
+      ]
+    },
+    "real-state-home-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/realStateHome/RealStateHomeWebPart.js",
+          "manifest": "./src/webparts/realStateHome/RealStateHomeWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -50,6 +74,9 @@
     "ResourcesWebPartStrings": "lib/webparts/resources/loc/{locale}.js",
     "CustomDemoWebPartStrings": "lib/webparts/customDemo/loc/{locale}.js",
     "FeedBackWebPartStrings": "lib/webparts/feedBack/loc/{locale}.js",
-    "SocialMediaWebPartStrings": "lib/webparts/socialMedia/loc/{locale}.js"
+    "SocialMediaWebPartStrings": "lib/webparts/socialMedia/loc/{locale}.js",
+    "RealStateWebPartStrings": "lib/webparts/realState/loc/{locale}.js",
+    "RealStateResourceWebPartStrings": "lib/webparts/realStateResource/loc/{locale}.js",
+    "RealStateHomeWebPartStrings": "lib/webparts/realStateHome/loc/{locale}.js"
   }
 }
