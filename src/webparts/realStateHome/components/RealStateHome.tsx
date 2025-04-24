@@ -37,7 +37,7 @@ export default class RealStateHome extends React.Component<IRealStateHomeProps, 
     return (
     
         <div className="realStateHome">
-         
+         <h3></h3>
         </div>
       
     );
