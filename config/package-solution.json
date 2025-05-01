@@ -3,7 +3,7 @@
   "solution": {
     "name": "design-demo-client-side-solution",
     "id": "d5a16bdf-692b-47d5-8f66-8e3aa3f60eb5",
-    "version": "1.0.0.0",
+    "version": "1.0.0.1",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
