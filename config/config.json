@@ -65,6 +65,14 @@
           "manifest": "./src/webparts/realStateHome/RealStateHomeWebPart.manifest.json"
         }
       ]
+    },
+    "real-state-management-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/realStateManagement/RealStateManagementWebPart.js",
+          "manifest": "./src/webparts/realStateManagement/RealStateManagementWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -77,6 +85,7 @@
     "SocialMediaWebPartStrings": "lib/webparts/socialMedia/loc/{locale}.js",
     "RealStateWebPartStrings": "lib/webparts/realState/loc/{locale}.js",
     "RealStateResourceWebPartStrings": "lib/webparts/realStateResource/loc/{locale}.js",
-    "RealStateHomeWebPartStrings": "lib/webparts/realStateHome/loc/{locale}.js"
+    "RealStateHomeWebPartStrings": "lib/webparts/realStateHome/loc/{locale}.js",
+    "RealStateManagementWebPartStrings": "lib/webparts/realStateManagement/loc/{locale}.js"
   }
 }
